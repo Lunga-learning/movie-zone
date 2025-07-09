@@ -1,0 +1,13 @@
+FILE COMMANDS:
+touch file	: to create  a file
+ls/ll		: to show list of files
+cat file1	: to show the content
+cat>>file1	: to insert the content
+enter ctrl d	: to save and exit form file
+cp file1 file2	: copies the content form file1 to file2
+mv file1 file2	: to rename file1 to file2
+rm file1	: to remove a file
+rm file1 -f	: to remove a file forcefully
+rm * -f		: to remove all files forcefully
+touch file{1..100}: to create 100 files at a time
+cat file1 >>file2 : to copy content from file1 to file2 (without overriding)

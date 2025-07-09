@@ -1,0 +1,12 @@
+HOW TO CHECK THE SERVER PERFOMANCE:
+top 
+htop : yum install htop -y
+
+head file1	: shows first 10 lines in a file
+head -5 file1	: shows first 5 lines in a file
+head -15 file1	: shows first 15 lines in a file
+tail file1	: shows bottom 10 lines in a file
+tail -5 file1	: shows bottom 5 lines in a file
+tail -15 file1	: shows bottom 15 lines in a file
+sed -n '5,15p' file1: to print line 5 to 15 
+wc (word count)	"wc file1"	: to show lines, words and characters.

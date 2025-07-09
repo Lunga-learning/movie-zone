@@ -1,0 +1,12 @@
+sudo -i		: to switch from ec2-user to root user
+sudo su -	: to switch from ec2-user to root user
+sudo su		: to switch from ec2-user to root user
+logout (ctrl d)	: to switch from root to ec2-user
+cat /proc/cpuinfo: to show cpu information
+lscpu: to show cpu information
+cat /proc/meminfo: to show memory information
+lsmem: to show memory information
+fdisk -l: to show the volume information
+lsblk: to show the volume information
+ifconfig/ ip addr/ ip addr show/ hostname -i: to show ip address
+clear (ctrl l): to clear the screen
